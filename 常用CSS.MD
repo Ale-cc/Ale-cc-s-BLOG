@@ -10,21 +10,21 @@ label,input {display: inline-block;vertical-align: middle;}
 li{list-style: none;}
 a{text-decoration: none;/*display:inline-block;*/ color: #000;}
 p.text{text-indent:2em;}
-body{background: #fff;font-family:"Open Sans Light","Helvetica","Microsoft Yahei","Arial","Microsoft Jhenghei","sans-serif","Tahoma","ËÎÌå","SourceHanSerifSC¡°;} //Ôö¼ÓË¼Ô´ËÎÌå
+body{background: #fff;font-family:"Open Sans Light","Helvetica","Microsoft Yahei","Arial","Microsoft Jhenghei","sans-serif","Tahoma","å®‹ä½“","SourceHanSerifSCâ€œ;} //å¢åŠ æ€æºå®‹ä½“ by Ale-cc
 
 
 "Open Sans Light","Microsoft Jhenghei","Helvetica","Microsoft Yahei","Arial","sans-serif","Tahoma"
 
 
-Ó¢ÎÄ×ÖÌå
+è‹±æ–‡å­—ä½“
         'Open Sans Light',Helvetica,Arial,sans-serif,Cambria
 
-Êı×ÖLucida Sans
+æ•°å­—Lucida Sans
 
 
-×ÖÌå   
-webkitË½ÓĞÊôĞÔ¸ß¼¶ĞŞÊÎ
--webkit-font-smoothing:antialiased;£¨Ã²ËÆÃ»Çø±ğ£©-webkit-text-stroke: 2px #fff
+å­—ä½“   
+webkitç§æœ‰å±æ€§é«˜çº§ä¿®é¥°
+-webkit-font-smoothing:antialiased;ï¼ˆè²Œä¼¼æ²¡åŒºåˆ«ï¼‰-webkit-text-stroke: 2px #fff
 
 'Helvetica Neue', Arial, 'Hiragino Sans GB'
 
@@ -45,7 +45,7 @@ a:hover,a:active{}
 .clearfix {*zoom:1;}/*IE/7/6*/
 
 
- /*´¦Àíli±ß¿òÖØµşÎÊÌâ*/
+ /*å¤„ç†liè¾¹æ¡†é‡å é—®é¢˜*/
 li{border:1px solid #ccc;
     margin-top: -1px;
     margin-left: -1px;
@@ -63,24 +63,24 @@ div {
 }
 
 
-/*ÒÆ¶¯¶Ë*/
+/*ç§»åŠ¨ç«¯*/
 
-¿ØÖÆÓÃ»§ÄÜ²»ÄÜÑ¡ÔñÒ³ÃæÖĞµÄÎÄ±¾£¬ÄÜ·ñ¶ÔÒ³ÃæÎÄ±¾½øĞĞ±à¼­
-/*Ö»ÄÜ¶Á*/
+æ§åˆ¶ç”¨æˆ·èƒ½ä¸èƒ½é€‰æ‹©é¡µé¢ä¸­çš„æ–‡æœ¬ï¼Œèƒ½å¦å¯¹é¡µé¢æ–‡æœ¬è¿›è¡Œç¼–è¾‘
+/*åªèƒ½è¯»*/
 .read-only {
   -webkit-user-modify:read-only;
   -moz-user-modify:read-only;
   user-modify:read-only;
 }
-/*¿É¶Á¿ÉĞ´*/
+/*å¯è¯»å¯å†™*/
 .read-write {
   -webkit-user-modify: read-write;
   -moz-user-modify: read-write;
   user-modify: read-write;
 }
 
-¸²¸Ç²ã½éÉÜ²ãÍ¸Ã÷
-»¬¹ıÊ± ¸²¸Ç²ãÏÔÊ¾£¬±³¾°²ã±»ÕÚµ²
+è¦†ç›–å±‚ä»‹ç»å±‚é€æ˜
+æ»‘è¿‡æ—¶ è¦†ç›–å±‚æ˜¾ç¤ºï¼ŒèƒŒæ™¯å±‚è¢«é®æŒ¡
 a.cover{opacity: 0;}
 
 a.cover:hover{    opacity: 1;
@@ -89,80 +89,80 @@ a.cover:hover{    opacity: 1;
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;}
 
-css3×ÓÑ¡ÔñÆ÷±í¸ñµÚÒ»ÁĞ
+css3å­é€‰æ‹©å™¨è¡¨æ ¼ç¬¬ä¸€åˆ—
 .tab4 tr td:nth-child(1){text-align:left;padding-left:2em;}
   
-/************* Õ¹Ê¾Î»ÖÃ    *****************/
+/************* å±•ç¤ºä½ç½®    *****************/
 
-³¤Ó¢ÎÄ»òÕß³¤×Ö¶Î»»ĞĞĞ´·¨×Ü½áÈçÏÂ:
+é•¿è‹±æ–‡æˆ–è€…é•¿å­—æ®µæ¢è¡Œå†™æ³•æ€»ç»“å¦‚ä¸‹:
 
-ĞèÒªÁË½âµÄ3¸öÊôĞÔ
-1.word-wrap:break-word ´ÊÄÚ»»ĞĞ Ö»Ö§³ÖÁ¬ĞøµÄÓ¢ÎÄºÍÊı×Ö£¬ÔÚ±í¸ñÖĞÊ§Ğ§
-2.word-break:break-all ±ß½çÄÚ»»ĞĞ Ö§³Ö°üÀ¨Ó¢ÎÄºÍÊı×ÖµÄ´Ê¾ä¶Ì£¬ÔÚ»ğºüÖĞÊ§Ğ§
-3.table-layout:fixed ¹Ì¶¨±í¸ñ Æô¶¯¸ÃÊôĞÔ¿ÉÔÚ±í¸ñÖĞÖ§³Öword-wrap:break-word;overflow:hidden
+éœ€è¦äº†è§£çš„3ä¸ªå±æ€§
+1.word-wrap:break-word è¯å†…æ¢è¡Œ åªæ”¯æŒè¿ç»­çš„è‹±æ–‡å’Œæ•°å­—ï¼Œåœ¨è¡¨æ ¼ä¸­å¤±æ•ˆ
+2.word-break:break-all è¾¹ç•Œå†…æ¢è¡Œ æ”¯æŒåŒ…æ‹¬è‹±æ–‡å’Œæ•°å­—çš„è¯å¥çŸ­ï¼Œåœ¨ç«ç‹ä¸­å¤±æ•ˆ
+3.table-layout:fixed å›ºå®šè¡¨æ ¼ å¯åŠ¨è¯¥å±æ€§å¯åœ¨è¡¨æ ¼ä¸­æ”¯æŒword-wrap:break-word;overflow:hidden
 
-ÆÕÍ¨ÈİÆ÷ÖĞ£¨Div£©µÄÓÃ·¨½¨Òé
+æ™®é€šå®¹å™¨ä¸­ï¼ˆDivï¼‰çš„ç”¨æ³•å»ºè®®
 word-wrap:break-word;
 
-ÈİÆ÷ÖĞ£¨Div£©ÖĞµÄ±í¸ñµÄÓÃ·¨½¨Òé
+å®¹å™¨ä¸­ï¼ˆDivï¼‰ä¸­çš„è¡¨æ ¼çš„ç”¨æ³•å»ºè®®
 table-layout:fixed;word-wrap:break-word;
 
 table{table-layout: fixed;word-wrap:break-word;}
 
 
-¹Ì¶¨±ÈÀı»ò¾ßÌåÖµ´óĞ¡µÄÓÃ
-box-sizing: border-box; À´ÏŞÖÆÈİÆ÷´óĞ¡
+å›ºå®šæ¯”ä¾‹æˆ–å…·ä½“å€¼å¤§å°çš„ç”¨
+box-sizing: border-box; æ¥é™åˆ¶å®¹å™¨å¤§å°
 
 
 .p-a { position: absolute;}
 .p-r { position: relative;}
 .over { overflow: hidden;}
-.t-over { text-overflow: ellipsis; white-space: nowrap;overflow: hidden;}   /*****  ²»ÔÊĞí¶ÏĞĞ  £¬³¬³öÓÃ  ......  ´úÌæ   *****/
-.t-ovr { white-space: nowrap;}  /** ²»ÔÊĞí¶ÏĞĞ   */
-.t-num{text-wrap: none; word-break: normal; }/* Êı×Ö²»¶ÏĞĞ */
-.t-letter{word-break: normal;}/* µ¥´Ê²»¶ÏĞĞ */
+.t-over { text-overflow: ellipsis; white-space: nowrap;overflow: hidden;}   /*****  ä¸å…è®¸æ–­è¡Œ  ï¼Œè¶…å‡ºç”¨  ......  ä»£æ›¿   *****/
+.t-ovr { white-space: nowrap;}  /** ä¸å…è®¸æ–­è¡Œ   */
+.t-num{text-wrap: none; word-break: normal; }/* æ•°å­—ä¸æ–­è¡Œ */
+.t-letter{word-break: normal;}/* å•è¯ä¸æ–­è¡Œ */
 .box-justify { -webkit-box-pack:justify; }
 
-´¹Ö±¾ÓÖĞ
+å‚ç›´å±…ä¸­
 display: table-cell;vertical-align: middle;
   vertical-align: baseline;
 
 
 
-ÎÄ×Ö»»ĞĞ
+æ–‡å­—æ¢è¡Œ
 word-wrap:break-word;word-break:break-all;
-text-overflow:clip | ellipsis;³¬³öÈİÆ÷²¿·Ö²Ã¼ô/ÓÃÊ¡ÂÔºÅÏÔÊ¾
+text-overflow:clip | ellipsis;è¶…å‡ºå®¹å™¨éƒ¨åˆ†è£å‰ª/ç”¨çœç•¥å·æ˜¾ç¤º
 
 
-/*¶àĞĞ³¬³ö¹Ì¶¨¸ß¶È£¡£¡£¡£¡£¡²¿·Ö¡£¡£¡£ÏÔÊ¾*/
+/*å¤šè¡Œè¶…å‡ºå›ºå®šé«˜åº¦ï¼ï¼ï¼ï¼ï¼éƒ¨åˆ†ã€‚ã€‚ã€‚æ˜¾ç¤º*/
 text-overflow: -o-ellipsis-lastline;overflow: hidden;
 text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;
 
 
 
 
-Ê××ÖÍ»³öÏÔÊ¾
+é¦–å­—çªå‡ºæ˜¾ç¤º
 p:first-letter {float:left;font-size:40px;font-weight:bold;}
 p:first-line {color:#090;}
 
-ÈÃhtmlÀïµÄ<script>±êÇ©ÄÚ½Å±¾ÏÔÊ¾
+è®©htmlé‡Œçš„<script>æ ‡ç­¾å†…è„šæœ¬æ˜¾ç¤º
 script{display:block;margin:5px ;padding:5px;box-shadow:0px 0px 9px 3px #111;background:#111;color:#fff;padding-left:2em}
 
-±íµ¥±êÇ©´¹Ö±¶ÔÆë
+è¡¨å•æ ‡ç­¾å‚ç›´å¯¹é½
 label,input {
     display: inline-block;
     vertical-align: middle;
-    /**display:inline;   ¼æÈİµÍ°æ±¾ie
+    /**display:inline;   å…¼å®¹ä½ç‰ˆæœ¬ie
     *zoom: 1;
     *vertical-align: auto;*/
 }
 
-/*ÃÉ°æ*/
+/*è’™ç‰ˆ*/
 .mengban{display:none;position:fixed;z-index:3000;top:0;left:0;width:100%;height:100%;background: rgb( 0, 0,0);background-color:rgba(0,0,0,0.7);filter:alpha(opacity=70); opacity:0.7;}
 
 
 
-/*µ¯´°*/
+/*å¼¹çª—*/
 
     height: 8em;
     width:6em;
@@ -176,21 +176,21 @@ label,input {
 
 
 
-/*--------------Çå³ı¸¡¶¯-------------*/
+/*--------------æ¸…é™¤æµ®åŠ¨-------------*/
 <style>
 .clearfix:before,.clearfix:after { content:""; display:table; }
 .clearfix:after {clear: both; }
 .clearfix {zoom:1;}
 </style>
 
-/*Çå³ı¸¡¶¯´úÂë*/
+/*æ¸…é™¤æµ®åŠ¨ä»£ç */
 .clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
 .clearfloat{zoom:1} 
 
-/*Çå³ı¸¡¶¯´úÂëÊ·*/
+/*æ¸…é™¤æµ®åŠ¨ä»£ç å²*/
 http://www.admin10000.com/document/6259.html
 
-¡¡ÖÕ¼«°æÒ»£º
+ã€€ç»ˆæç‰ˆä¸€ï¼š
 
 .clearfix:after { 
   content:"\200B"; 
@@ -200,9 +200,9 @@ http://www.admin10000.com/document/6259.html
 } 
 .clearfix {*zoom:1;}/*IE/7/6*/
 
-¡¡¡¡½âÊÍÏÂ:content:"\200B";Õâ¸ö²ÎÊı£¬Unicode×Ö·ûÀïÓĞÒ»¸ö¡°Áã¿í¶È¿Õ¸ñ¡±£¬¼´ U+200B£¬´úÌæÔ­À´µÄ¡°.¡±£¬¿ÉÒÔËõ¼õ´úÂëÁ¿¡£¶øÇÒ²»ÔÙÊ¹ÓÃvisibility:hidden¡£
+ã€€ã€€è§£é‡Šä¸‹:content:"\200B";è¿™ä¸ªå‚æ•°ï¼ŒUnicodeå­—ç¬¦é‡Œæœ‰ä¸€ä¸ªâ€œé›¶å®½åº¦ç©ºæ ¼â€ï¼Œå³ U+200Bï¼Œä»£æ›¿åŸæ¥çš„â€œ.â€ï¼Œå¯ä»¥ç¼©å‡ä»£ç é‡ã€‚è€Œä¸”ä¸å†ä½¿ç”¨visibility:hiddenã€‚
 
-¡¡¡¡ÖÕ¼«°æ¶ş£º
+ã€€ã€€ç»ˆæç‰ˆäºŒï¼š
 
 .clearfix:before,.clearfix:after{ 
     content:""; 
@@ -212,9 +212,9 @@ http://www.admin10000.com/document/6259.html
 .clearfix{ 
     *zoom:1;/*IE/7/6*/
 }
-¡¡¡¡ÕâÁ½¸öÖÕ¼«°æ´úÂë¶¼ºÜ¼ò½à£¬ÖÕ¼«°æÒ»ºÍ¶ş¶¼¿ÉÒÔÊ¹ÓÃ£¬ÒÔÉÏ´úÂë¶¼¾­¹ı²âÊÔ£¬´ó¼Ò¸Ï½ôÓÃÒ»ÏÂ°É£¬Èç¹ûÓĞÊ²Ã´ÎÊÌâÇë¼°Ê±¸úÎÒ·´À¡£¬Èç¹ûÄã»¹Í£ÁôÔÚclearfixµÄÀÏ´úÂëµÄÊ±ºò¾Í¸Ï½ô¸üĞÂÒ»ÏÂ´úÂë°É¡£
+ã€€ã€€è¿™ä¸¤ä¸ªç»ˆæç‰ˆä»£ç éƒ½å¾ˆç®€æ´ï¼Œç»ˆæç‰ˆä¸€å’ŒäºŒéƒ½å¯ä»¥ä½¿ç”¨ï¼Œä»¥ä¸Šä»£ç éƒ½ç»è¿‡æµ‹è¯•ï¼Œå¤§å®¶èµ¶ç´§ç”¨ä¸€ä¸‹å§ï¼Œå¦‚æœæœ‰ä»€ä¹ˆé—®é¢˜è¯·åŠæ—¶è·Ÿæˆ‘åé¦ˆï¼Œå¦‚æœä½ è¿˜åœç•™åœ¨clearfixçš„è€ä»£ç çš„æ—¶å€™å°±èµ¶ç´§æ›´æ–°ä¸€ä¸‹ä»£ç å§ã€‚
 
-ÔÚ¸¡¶¯µÄ¸¸ÔªËØ¼Óoverflow: auto;¸¸ÔªËØ¸ß¶È³ÅÆğÀ´
+åœ¨æµ®åŠ¨çš„çˆ¶å…ƒç´ åŠ overflow: auto;çˆ¶å…ƒç´ é«˜åº¦æ’‘èµ·æ¥
 
 <ul class="clearfix">
 <li style="float:left">test float</li>
@@ -224,7 +224,7 @@ http://www.admin10000.com/document/6259.html
 
 
 
-/*css3¶¯»­½¥±ä°´Å¥*/
+/*css3åŠ¨ç”»æ¸å˜æŒ‰é’®*/
 http://zurb.com/playground/radioactive-buttons
 
 @-webkit-keyframes greenPulse {
@@ -239,8 +239,8 @@ height:35px;line-height:35px;cursor:pointer;border-radius:4px;
 
 
 
-¹ı¶É³¡¾°
-hover»¬¹ı
+è¿‡æ¸¡åœºæ™¯
+hoveræ»‘è¿‡
 
     -webkit-transition: all .1s ease-out;
     -moz-transition: all .1s ease-out;
@@ -249,7 +249,7 @@ hover»¬¹ı
     transition: all .1s ease-out;
 
 
-ÃÉ°æÄ£ºıĞ§¹û
+è’™ç‰ˆæ¨¡ç³Šæ•ˆæœ
     -webkit-filter: blur(3px);
     -moz-filter: blur(3px);
     -o-filter: blur(3px);
@@ -269,7 +269,7 @@ hover»¬¹ı
 }
 
 
-¶¯»­Ö¡
+åŠ¨ç”»å¸§
 @keyframes spin {
     0% {
         -webkit-transform: rotate(0);
@@ -328,7 +328,7 @@ hover»¬¹ı
     }
 }
 
-¶¯»­
+åŠ¨ç”»
 .spin {
     animation: spin 1s linear 10ms infinite;
     -webkit-animation: spin 1s linear 10ms infinite;
@@ -337,7 +337,7 @@ hover»¬¹ı
     -o-animation: spin 1s linear 10ms infinite
 }
 
-½¥±ä
+æ¸å˜
 .bai-bg a:hover {
     background-image: -webkit-linear-gradient(top,#f7f7f7,#f6f6f6,#f5f5f5);
     background-image: -moz-linear-gradient(top,#f7f7f7,#f6f6f6,#f5f5f5);
@@ -347,14 +347,14 @@ hover»¬¹ı
 
 
 
-±íµ¥
+è¡¨å•
 
 <input class="11" type="text" value="256" maxlength="76">
-Ê±Ê±¸Ä±äÍøÒ³ÏÔÊ¾
+æ—¶æ—¶æ”¹å˜ç½‘é¡µæ˜¾ç¤º
 http://jingyan.baidu.com/article/8ebacdf0300f4c49f65cd51f.html
 .exp-image-wraper img{position:relative;transform:rotate(90deg) scale(0.8,0.8);}
 
-±³¾°ÑÕÉ«½¥±ä
+èƒŒæ™¯é¢œè‰²æ¸å˜
 body{
     font-size: 16px;color: #fff;font-family:'Microsoft Jhenghei','Microsoft YaHei','Arial','sans-serif';text-shadow:1px 1px 1px rgba(0,0,0,1);
     background: #333; /* Old browsers */
@@ -368,19 +368,19 @@ body{
     background-size: cover;
 }
         background: -webkit-linear-gradient(top, #000 25%,#fff 75%);
-        /*topÖ¸µÄÊÇ´ÓÉÏÏòÏÂÏßĞÔ½¥±ä£¬left¼´´Ó×óµ½ÓÒ£¬25%Ö¸µÄÊÇ´Ó×ÔÉÏ¶øÏÂ¸ß¶ÈµÄ1/4³¤¶È¿ªÊ¼£¬75%½áÊø*/
+        /*topæŒ‡çš„æ˜¯ä»ä¸Šå‘ä¸‹çº¿æ€§æ¸å˜ï¼Œleftå³ä»å·¦åˆ°å³ï¼Œ25%æŒ‡çš„æ˜¯ä»è‡ªä¸Šè€Œä¸‹é«˜åº¦çš„1/4é•¿åº¦å¼€å§‹ï¼Œ75%ç»“æŸ*/
 
-±³¾°Í¼Æ¬
+èƒŒæ™¯å›¾ç‰‡
 background:url(xxx/1.jpg);
 background-color:rgba(88,200,100,0.7);
 background-repeat: no-repeat;
 }
 
-Ô²½Ç±ß¿òºÍÒõÓ°
+åœ†è§’è¾¹æ¡†å’Œé˜´å½±
         border-radius: 3px;
         box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 
-/*Ä£ºı*/
+/*æ¨¡ç³Š*/
 -webkit-filter: blur(5px); 
     -moz-filter: blur(5px);
     -mz-filter: blur(5px);
@@ -389,40 +389,40 @@ opacity:1;
 -webkit-transition: opacity 1.5s ease;
 transition: opacity 1.5s ease;
 
-/*css3×ÖÌå¹â»¬*/
+/*css3å­—ä½“å…‰æ»‘*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-/*    CSS3ÖĞÓÃÓÚwebkitÒıÇæ(Èçchrome)ÖĞÉèÖÃ×ÖÌåµÄ¿¹¾â³İ»òÕßËµ¹â»¬¶ÈµÄÊôĞÔ¡£
-ÓĞ3¸öÊôĞÔ£ºnoneÓÃÓÚĞ¡ÏñËØµÄÎÄ±¾¡¢subpixel-antialiasedä¯ÀÀÆ÷Ä¬ÈÏµÄ¡¢antialiased·´¾â³İ¡£*/
+/*    CSS3ä¸­ç”¨äºwebkitå¼•æ“(å¦‚chrome)ä¸­è®¾ç½®å­—ä½“çš„æŠ—é”¯é½¿æˆ–è€…è¯´å…‰æ»‘åº¦çš„å±æ€§ã€‚
+æœ‰3ä¸ªå±æ€§ï¼šnoneç”¨äºå°åƒç´ çš„æ–‡æœ¬ã€subpixel-antialiasedæµè§ˆå™¨é»˜è®¤çš„ã€antialiasedåé”¯é½¿ã€‚*/
 
-/*ÉèÖÃÔªËØÍ¸Ã÷¶È*/
-¼æÈİie
+/*è®¾ç½®å…ƒç´ é€æ˜åº¦*/
+å…¼å®¹ie
 http://blog.csdn.net/jiudihanbing/article/details/8372947
 
-¼æÈİie8µÄrgba
+å…¼å®¹ie8çš„rgba
 http://my.oschina.net/CodingPeasant/blog/515234
-/*ie Í¸Ã÷ÂË¾µ*/
-filter:Alpha(opacity=50)  ¼æÈİie678
+/*ie é€æ˜æ»¤é•œ*/
+filter:Alpha(opacity=50)  å…¼å®¹ie678
 
 filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
 
-/*ie ½¥±äÂË¾µ*/
+/*ie æ¸å˜æ»¤é•œ*/
 filter:alpha(opacity=60)progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColorstr=#A9A9A9,GradientType:0;);
-/* È«Õ¾ºÚ°×ÂË¾µ*/
+/* å…¨ç«™é»‘ç™½æ»¤é•œ*/
 html { filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); }
 background:transparent;
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ffffff,endColorstr=#66ffffff);
 
-opacity:0.5; Ö§³Öie9¼°ÒÔÉÏ ¹æ¶¨²»Í¸Ã÷¶È¼¶±ğ¡£´Ó0ÍêÈ«Í¸Ã÷£©µ½ 1.0£¨ÍêÈ«²»Í¸Ã÷£©
+opacity:0.5; æ”¯æŒie9åŠä»¥ä¸Š è§„å®šä¸é€æ˜åº¦çº§åˆ«ã€‚ä»0å®Œå…¨é€æ˜ï¼‰åˆ° 1.0ï¼ˆå®Œå…¨ä¸é€æ˜ï¼‰
 filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
 
-IE8 ÒÔ¼°¸üÔçµÄ°æ±¾Ö§³ÖÌæ´úµÄ filter ÊôĞÔ¡£ÀıÈç£ºfilter:Alpha(opacity=50)
+IE8 ä»¥åŠæ›´æ—©çš„ç‰ˆæœ¬æ”¯æŒæ›¿ä»£çš„ filter å±æ€§ã€‚ä¾‹å¦‚ï¼šfilter:Alpha(opacity=50)
 .iefilter{opacity: 0.6;filter:alpha(opacity=60);}
 .ao_rightside{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66ffffff,endColorstr=#6687CEEB);}
 .ao_items{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fffffff,endColorstr=#7fffffff);}
 
 .mainy{filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#CC000000', endColorstr='#CC000000');}
-/*:root css3Ñ¡ÔñÆ÷£¬À´±ÜÃâIE9ä¯ÀÀÆ÷ÖĞµÄÂË¾µfilterºÍrgbaÍ¬Ê±Ö§³ÖÊ±µÄ³åÍ»*/
+/*:root css3é€‰æ‹©å™¨ï¼Œæ¥é¿å…IE9æµè§ˆå™¨ä¸­çš„æ»¤é•œfilterå’ŒrgbaåŒæ—¶æ”¯æŒæ—¶çš„å†²çª*/
 :root .mainy {filter:none;background-color:rgba(0,0,0,0.8);}
 
 
@@ -436,7 +436,7 @@ IE8 ÒÔ¼°¸üÔçµÄ°æ±¾Ö§³ÖÌæ´úµÄ filter ÊôĞÔ¡£ÀıÈç£ºfilter:Alpha(opacity=50)
 </map>
 
 
-/*emmetÓï·¨*/
+/*emmetè¯­æ³•*/
 
 
 
@@ -451,13 +451,13 @@ height:35px;line-height:35px;cursor:pointer;border-radius:4px;
  -webkit-animation-name: greenPulse;
   -webkit-animation-duration: 3s;-webkit-animation-iteration-count: infinite;}
 
-/*css3 animate ÊôĞÔ*/
-  -webkit-animation-name:'wobble';/*¶¯»­ÊôĞÔÃû¼´ keyframes¶¨ÒåµÄ¶¯»­Ãû*/
-  -webkit-animation-duration: 10s;/*¶¯»­³ÖĞøÊ±¼ä*/
-  -webkit-animation-timing-function: ease-in-out; /*¶¯»­ÆµÂÊ£¬ºÍtransition-timing-functionÊÇÒ»ÑùµÄ*/
-  -webkit-animation-delay: 2s;/*¶¯»­ÑÓ³ÙÊ±¼ä*/
-  -webkit-animation-iteration-count: 10;/*¶¨ÒåÑ­»·×ÊÁÏ£¬infiniteÎªÎŞÏŞ´Î*/
-  -webkit-animation-direction: alternate;/*¶¨Òå¶¯»­·½Ê½*/
+/*css3 animate å±æ€§*/
+  -webkit-animation-name:'wobble';/*åŠ¨ç”»å±æ€§åå³ keyframeså®šä¹‰çš„åŠ¨ç”»å*/
+  -webkit-animation-duration: 10s;/*åŠ¨ç”»æŒç»­æ—¶é—´*/
+  -webkit-animation-timing-function: ease-in-out; /*åŠ¨ç”»é¢‘ç‡ï¼Œå’Œtransition-timing-functionæ˜¯ä¸€æ ·çš„*/
+  -webkit-animation-delay: 2s;/*åŠ¨ç”»å»¶è¿Ÿæ—¶é—´*/
+  -webkit-animation-iteration-count: 10;/*å®šä¹‰å¾ªç¯èµ„æ–™ï¼Œinfiniteä¸ºæ— é™æ¬¡*/
+  -webkit-animation-direction: alternate;/*å®šä¹‰åŠ¨ç”»æ–¹å¼*/
 
 animation:wobble 10s ease-in  2s 10 both;
 
@@ -470,7 +470,7 @@ animation-iteration-count
 animation-direction
 
 
-css3¶¯»­±£Áô×îºóÖ¡
+css3åŠ¨ç”»ä¿ç•™æœ€åå¸§
 -webkit-animation-fill-mode: forwards;
 animation-fill-mode: forwards;
 -webkit-animation-iteration-count: infinite;
