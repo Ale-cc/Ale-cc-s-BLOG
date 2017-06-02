@@ -7,4 +7,4 @@
 
   <a href="https://github.com/Ale-cc/Ale-cc-s-BLOG/blob/master/%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0tips.md">(2)刻意练习tips</a>
 
-  <a href="https://github.com/Ale-cc/Ale-cc-s-BLOG/blob/master/%5B2016.07%5D%E7%A7%91%E5%AD%A6%E7%9A%84%E6%80%9D%E7%BB%B4%E6%96%B9%E6%B3%95%E8%AE%BA.MD">(3)[2016.07]小谈科学的思维方法论</a>
+  <a href="https://github.com/Ale-cc/Ale-cc-s-BLOG/blob/master/%5B2016.07%5D%E5%B0%8F%E8%B0%88%E7%A7%91%E5%AD%A6%E7%9A%84%E6%80%9D%E7%BB%B4%E6%96%B9%E6%B3%95%E8%AE%BA.MD">(3)[2016.07]小谈科学的思维方法论</a>
