@@ -3,6 +3,8 @@
 原文: Who said javascript was easy ?
 
 译者:Fundebug
+转载时请注明作者Fundebug以及本文地址：
+https://blog.fundebug.com/2017/06/28/who-said-js-was-easy/
 
 为了保证可读性，本文采用意译而非直译。另外，本文版权归原作者所有，翻译仅用于学习。
 
