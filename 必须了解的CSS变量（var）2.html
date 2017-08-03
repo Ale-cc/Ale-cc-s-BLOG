@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>必须了解的CSS变量（var）2</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no, maximum-scale=1.0">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<style>
+	:root{
+		--color_name:20px;
+	}
+	div{
+		margin:5em 0;
+		text-align: center;
+		--color:red;
+		color:var(--color);
+	}
+	span{
+		color:var(--color, yellow);
+	}
+	p{
+		color:var(--color_name, green);
+	}
+</style>
+</head>
+<body>
+	<div>我的字体是红色</div>
+	<span>我的字体是黄色，由于--color_name未正确设置，因此取默认值</span>
+	<p>我是黑色，并不是绿色</p>
+</body>
+</html>
